@@ -1,0 +1,38 @@
+*{
+    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+.conteiner{
+    min-width: 100vw;
+   min-height: 100vh;
+    border: 1px solid grey;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: minmax(100px, auto) minmax(500px, 1fr) minmax(300px, auto) minmax(100px auto);
+    
+  
+}
+header{
+   
+   
+    background-color: teal;
+}
+article{
+    
+    
+    background-color: blueviolet;
+}
+aside{
+    
+    background-color: blue;
+
+}
+footer{
+    
+    background-color: black;
+}
